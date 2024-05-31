@@ -8,3 +8,4 @@ To Do
 [ ] widget<br>
 [ ] neovim personal config<br>
 [ ] themes
+[X] Wofi menu
