@@ -9,9 +9,9 @@ path = os.path.expanduser
 carpetas_origen = [
     
     path('~/.config/hypr'),
-    path('~/.config/wofi')
-
-        ]
+    path('~/.config/wofi'),
+    path('~/.config/nvim')
+]
 carpeta_destino = os.path.expanduser('~/software/arekDot')
 
 # Verifica que la carpeta de origen existe
