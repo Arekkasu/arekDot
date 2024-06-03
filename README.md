@@ -7,5 +7,5 @@ To Do
 [ ] Editar Waybar<br>
 [ ] widget<br>
 [ ] neovim personal config<br>
-[ ] themes
+[ ] themes <br>
 [X] Wofi menu
