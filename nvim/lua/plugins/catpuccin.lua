@@ -1,5 +1,6 @@
 
 return {
+    
     --theme scheme
      "catppuccin/nvim", 
     name = "catppuccin", 
