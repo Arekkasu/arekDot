@@ -28,7 +28,8 @@ return {
 					"rust_analyzer",
           --"standardjs",
           --EMMET
-          "emmet_language_server"
+          "emmet_language_server",
+          "bashls"
 				},
 			})
 		end,
@@ -57,6 +58,7 @@ return {
         --"standardjs",
         --emmet
         "emmet_language_server",
+        "bashls"
 			}
 			local capabilities = require("cmp_nvim_lsp").default_capabilities()
 			for _, server in ipairs(servers) do
