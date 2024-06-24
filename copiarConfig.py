@@ -10,6 +10,7 @@ carpetas_origen = [
     path("~/.config/hypr"),
     path("~/.config/wofi"),
     path("~/.config/nvim"),
+    path("~/.config/fastfetch" )
 ]
 carpeta_destino = os.path.expanduser("~/software/arekDot")
 
