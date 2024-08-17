@@ -1,0 +1,126 @@
+* {
+  /*color: #d8dee9;*/
+  /* Color del texto */
+  font-family: "Fira Code", monospace;
+  font-size: 1rem;
+}
+
+
+#waybar {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+/*CENTER MODULES*/
+
+.modules-center {
+  background-color: #282a36;
+  border-radius: 20px;
+  padding: 0px 5px 0px 5px;
+  border: none;
+}
+
+button:hover {
+  box-shadow: none;
+  /* Remove predefined box-shadow */
+  /*text-shadow: none;*/
+  /* Remove predefined text-shadow */
+  background: rgba(26, 27, 32, 0.8);
+  /* Remove predefined background color (white) */
+  /* Disable predefined animations */
+  border: none;
+  border-radius: 10px;
+}
+
+
+
+#workspaces button {
+  color: #d8dee9;
+  border: none;
+  text-shadow: none;
+}
+
+#workspaces button.active {
+  margin: 0;
+  padding: 0px 5px 0px 5px;
+  background-color: #285577;
+  color: #ffffff;
+}
+
+/*#workspaces button:hover{
+  background: transparent;
+  border-color: transparent;
+  background-color: transparent;
+  text-shadow: transparent;
+  transition: none;
+}*/
+
+/*LEFT MODULES*/
+.modules-left {
+  background-color: #282a36;
+  padding: 0px 5px 0px 0px;
+  color: white;
+  border-radius: 20px;
+}
+
+#user{
+  margin-left: 10px;
+}
+
+#custom-logo {
+  margin: 0 10px 0 5px;
+}
+
+#custom-media {
+  margin: 0 10px;
+}
+
+#battery {
+  min-width: 70px;
+}
+
+
+/*RIGHT MODULES*/
+.modules-right {
+  background-color: #282a36;
+  color: white;
+  border-radius: 20px;
+}
+
+
+
+#cpu {
+  margin-right: 5px;
+  background: #282a36;
+  border-radius: 20px 0 0 20px;
+  min-width: 70px;
+}
+
+#disk{
+  margin-right: 15px;
+}
+
+#clock{
+  margin-right: 15px;
+}
+
+#memory{
+  margin-right: 15px;
+}
+
+#network {
+  margin-right: 20px;
+}
+
+#pulseaudio{
+  margin-right: 15px;
+}
+
+#custom-off{
+  margin-right: 15px;
+  color: rgba(215, 19, 19, 0.8);
+}
+
+#custom-notification{
+  margin-right: 15px;
+}

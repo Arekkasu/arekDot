@@ -1,3 +1,6 @@
+--MINE:
+--TODO:,
+
 --LAZY MANAGER
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
@@ -15,5 +18,6 @@ vim.opt.rtp:prepend(lazypath)
 
 --local opts = {}
 require("vim-options")
+require('colorthemes')
 require("lazy").setup("plugins")
 
