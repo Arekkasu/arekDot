@@ -8,6 +8,19 @@ vim.cmd("set shiftwidth=2")
 --TECLA LIDER
 vim.g.mapleader = " "
 
+--CTRL S 
+vim.api.nvim_set_keymap('n', '<C-s>', ':w<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('i', '<C-s>', '<Esc>:w<CR>a', { noremap = true, silent = true })
+
+--DAP
+--vim.keymap.set("n", "<leader>db", "<cmd> DapToggleBreakpoint<CR>", { desc = "Toggle breakpoint" })
+--vim.keymap.set("n", "<leader>dr", "<cmd> DapContinue<CR>", { desc = "Continue" })
+
+
+vim.keymap.set("n", "<leader>c", ":Copilot disable<CR>", {})
+vim.keymap.set("n", "<leader>C", ":Copilot enable<CR>", {})
+
+
 --config de dashboard
 
 vim.keymap.set("n", "V", function()

@@ -1,0 +1,8 @@
+swayosd
+swww
+yay
+pavucontrol
+waybar
+lsd
+powerline10k theme
+swaync-client

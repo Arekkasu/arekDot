@@ -18,8 +18,9 @@ return {
 					--LUA LSP
 					"lua_ls",
 					--JAVSCRIPT / TYPESCRIPT LSP -- FRONT VUE LSP
-					"tsserver",
-					"vuels",
+					--"tsserver",
+					"ts_ls",
+          "vuels",
 					-- C/C++ LSP
 					"clangd",
 					--python LSP
@@ -30,8 +31,10 @@ return {
 					--EMMET
 					"emmet_language_server",
 					"bashls",
-				},
+          "prismals",
+        },
 			})
+    ---
 		end,
 	},
 	{
@@ -47,7 +50,8 @@ return {
 				--LUA LSP
 				"lua_ls",
 				--JAVSCRIPT / TYPESCRIPT LSP -- FRONT VUE LSP
-				"tsserver",
+				--"tsserver",
+        "ts_ls",
 				"vuels",
 				-- C/C++ LSP
 				"clangd",
@@ -59,6 +63,7 @@ return {
 				--emmet
 				"emmet_language_server",
 				"bashls",
+        "prismals"
 			}
 			local capabilities = require("cmp_nvim_lsp").default_capabilities()
 			for _, server in ipairs(servers) do

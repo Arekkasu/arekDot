@@ -32,4 +32,23 @@ return {
   {
     "samharju/synthweave.nvim",
   },
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
+  { "Mofiqul/dracula.nvim" }
+  ,
+  { 'shaunsingh/nord.nvim' }
+  ,
+  {
+    'uloco/bluloco.nvim',
+    lazy = false,
+    priority = 1000,
+    dependencies = { 'rktjmp/lush.nvim' },
+    config = function()
+      -- your optional config goes here, see below.
+    end,
+  }
 }
